@@ -5,7 +5,7 @@
 
 ## 🖤 О проекте
 
-**Дампер Telegram ботов** — это коллекция шаблонов для создания Telegram-ботов с использованием всех популярных библиотек. Каждый шаблон предоставляет базовую инициализацию бота и обработчик команды /start. Библиотеки, для которых предусмотрены шаблоны: Aiogram 2, Aiogram 3, Telebot, Telegram, Telepot, Telethon, TWX.
+**Дампер Telegram ботов** — это скрипт позволяющий по токену бота узнать, количество активных пользователей в нем, id, имя пользователя, а так же делает дамп всех пользователей в формате username userid.
 
 ---
 
@@ -23,7 +23,7 @@
   <summary><strong>Libraries</strong></summary>
   <br>
   
-  ![Aiogram 2](https://img.shields.io/badge/Aiogram_2-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Aiogram 3](https://img.shields.io/badge/Aiogram_3-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Telebot](https://img.shields.io/badge/Telebot-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Telegram](https://img.shields.io/badge/Telegram-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Telepot](https://img.shields.io/badge/Telepot-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Telethon](https://img.shields.io/badge/Telethon-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![TWX](https://img.shields.io/badge/TWX-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white)
+  ![Telebot](https://img.shields.io/badge/Telebot-%23000000.svg?style=for-the-badge&logo=telegram&logoColor=white) ![Pyfiglet](https://img.shields.io/badge/Pyfiglet-%23000000.svg?style=for-the-badge&logo=python&logoColor=white) ![Colorama](https://img.shields.io/badge/Colorama-%23000000.svg?style=for-the-badge&logo=python&logoColor=white) ![Json](https://img.shields.io/badge/Json-%23000000.svg?style=for-the-badge&logo=json&logoColor=white)
   <br>
 </details>
 
@@ -33,21 +33,16 @@
 cmd:
 
    ```bash
-  pip install aiogram==2.23        #Для Aiogram 2
-  pip install aiogram==3.15.0      #Для Aiogram 3
-  pip install telebot              #Для Telebot
-  pip install telegram             #Для Telegram
-  pip install telepot              #Для Telepot
-  pip install telethon             #Для Telethon
-  pip install twx                  #Для TWX
+  pip install -r requirements.txt  # Установка необходимых библиотек
+  python dump.py                   # Запуск гл. файла
   ```
 
 ---
 
 ## 🖤 Функционал
 
-- 💨 Инициализация бота.
-- 💨 Обработчик / команды start.
+- 💨 Создание дампа пользователей в формате json (id, first_name, last_name, username).
+- 💨 Вывод информации о боте (first_name, user_name, can_join_groups, support_inline, has_web_app, сount_users).
 
 ---
 
