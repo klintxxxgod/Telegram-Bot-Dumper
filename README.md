@@ -1,5 +1,5 @@
 # Дампер Telegram ботов!
-![Header](https://i.ibb.co/pJwpFyB/Screenshot-2.png)
+![Header](https://i.ibb.co/m5F3S8N/image.png)
 
 ---
 
